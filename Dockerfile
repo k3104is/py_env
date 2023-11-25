@@ -7,3 +7,6 @@ RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 
 #RUN python -m pip install jupyterlab
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+

@@ -8,4 +8,6 @@ services:
     tty: true
     volumes:
       - ./py_ws:/root/py_ws
+    ports:
+      - "80:80"
 
