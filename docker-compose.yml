@@ -1,13 +1,12 @@
-version: '3'
 services:
   python3:
-    restart: always
     build: .
-    container_name: 'python3'
+    # restart: always
+    container_name: 'py_env'
     working_dir: '/root/'
     tty: true
     volumes:
-      - ./py_ws:/root/py_ws
+      - ./py_ws:/root
     ports:
       - "80:80"
 

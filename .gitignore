@@ -1,2 +1,6 @@
 /.ipynb_checkpoints
 /.vscode
+*/.vscode-server/*
+.bash_history
+.lesshst
+.viminfo
